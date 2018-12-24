@@ -7,6 +7,7 @@
 //
 
 #import "DJXUIView.h"
+#import "DJXUITapGestureRecognizer.h"
 
 @implementation DJXUIView
 
@@ -21,7 +22,7 @@
         [self addSubview:label];
         self.label = label;
         
-        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapInSelf)];
+        DJXUITapGestureRecognizer *tap = [[DJXUITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapInSelf)];
         [self addGestureRecognizer:tap];
         tap.delegate = self;
         self.tap = tap;

@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
 
   s.name         = "DJXEventDeliveryChainTest"
   s.version      = "0.0.1"
-  s.summary      = "A short description of DJXEventDeliveryChainTest."
+  s.summary      = "This project is use to test user event delivery chain."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "This project is use to test user event delivery chain"
+  s.description  = "This project is use to test user event delivery chain. We can use this demo to do some testing"
 
  s.homepage     = "https://github.com/dongjianxiong/DJXEventDeliveryChainTest"
    # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -37,8 +37,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  # s.license      = "MIT (example)"
-  s.license      = { :type => "lenny.study.ios", :file => "FILE_LICENSE" }
+  s.license      = "Lenny.study.ios"
+  # s.license      = { :type => "lenny.study.ios", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
